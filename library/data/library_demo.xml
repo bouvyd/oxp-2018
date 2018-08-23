@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="library.book" id="book_demo_hh_1">
+        <field name="title">The Hitchhiker's Guide to the Galaxy</field>
+        <field name="author">Douglas Adams</field>
+        <field name="isbn">9780345418913</field>
+        <field name="summary">
+            <![CDATA[
+            <p>Seconds before the Earth is demolished to make way for a galactic freeway,
+            Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher
+            for the revised edition of The Hitchhiker's Guide to the Galaxy who, for the
+            last fifteen years, has been posing as an out-of-work actor.</p>
+            <p>Together this dynamic pair begin a journey through space aided by quotes from
+            The Hitchhiker's Guide ("A towel is about the most massively useful thing an
+            interstellar hitchhiker can have") and a galaxy-full of fellow travelers: Zaphod
+            Beeblebrox—the two-headed, three-armed ex-hippie and totally out-to-lunch
+            president of the galaxy; Trillian, Zaphod's girlfriend (formally Tricia McMillan),
+            whom Arthur tried to pick up at a cocktail party once upon a time zone; Marvin,
+            a paranoid, brilliant, and chronically depressed robot; Veet Voojagig, a former
+            graduate student who is obsessed with the disappearance of all the ballpoint
+            pens he bought over the years.</p>
+            ]]>
+        </field>
+        <field name="image" type="base64" file="library/static/img/hitchhiker.jpg"/>
+    </record>
+
+    <record model="library.book" id="book_demo_hh_2">
+        <field name="title">The Restaurant at the End of the Universe</field>
+        <field name="author">Douglas Adams</field>
+        <field name="isbn">9780345418920</field>
+        <field name="summary">
+            <![CDATA[
+            <p>Facing annihilation at the hands of the warlike Vogons is a curious time
+            to have a cosmically displaced Arthur Dent and his curious comrades in arms
+            as they hurtle through space powered by pure improbability - and desperately
+            in search of a place to eat. Among Arthur's motley shipmates are Ford Prefect,
+            a long-time friend and contributor to the The Hitch Hiker's Guide to the
+            Galaxy; Zaphod Beeblebrox, the three-armed, two-headed ex-president of the
+            galaxy; Tricia McMilan, a fellow Earth refuge who's gone native (her name is
+            Trillian now); and Marvin, who suffers nothing and no one gladly.</p>
+            ]]>
+        </field>
+        <field name="image" type="base64" file="library/static/img/hitchhiker_2.jpg"/>
+    </record>
+
+    <record model="library.book" id="book_demo_js_1">
+        <field name="title">The Collapsing Empire</field>
+        <field name="author">John Scalzi</field>
+        <field name="isbn">9780765388889</field>
+        <field name="summary">
+            <![CDATA[
+            <p>The first novel of a new space-opera sequence set in an all-new universe by the
+            Hugo Award-winning, New York Times-bestselling author of Redshirts and
+            Old Man's War.</p>
+            <p>Our universe is ruled by physics and faster than light travel is not possible
+            -- until the discovery of The Flow, an extra-dimensional field we can access
+            at certain points in space-time that transport us to other worlds, around
+            other stars.</p>
+            <p>Humanity flows away from Earth, into space, and in time forgets our home
+            world and creates a new empire, the Interdependency, whose ethos requires
+            that no one human outpost can survive without the others. It’s a hedge
+            against interstellar war -- and a system of control for the rulers of
+            the empire.</p>
+            <p>The Flow is eternal -- but it is not static. Just as a river changes
+            course, The Flow changes as well, cutting off worlds from the rest of
+            humanity. When it’s discovered that The Flow is moving, possibly cutting
+            off all human worlds from faster than light travel forever, three individuals
+            -- a scientist, a starship captain and the Empress of the Interdependency
+            -- are in a race against time to discover what, if anything, can be salvaged
+            from an interstellar empire on the brink of collapse. </p>
+            ]]>
+        </field>
+        <field name="image" type="base64" file="library/static/img/collapsing.jpg"/>
+    </record>
+
+    <record model="library.book" id="book_demo_js_2">
+        <field name="title">The Consuming Fire</field>
+        <field name="author">John Scalzi</field>
+        <field name="isbn">9780765388971</field>
+        <field name="summary">
+            <![CDATA[
+            <p>The Interdependency, humanity’s interstellar empire, is on the verge of
+            collapse. The Flow, the extra-dimensional conduit that makes travel between
+            the stars possible, is disappearing, leaving entire star systems stranded.
+            When it goes, human civilization may go with it—unless desperate measures
+            can be taken.</p>
+
+            <p>Emperox Grayland II, the leader of the Interdependency, is ready to take
+            those measures to help ensure the survival of billions. But nothing is ever
+            that easy. Arrayed before her are those who believe the collapse of the Flow
+            is a myth—or at the very least, an opportunity that can allow them to ascend
+            to power.</p>
+
+            <p>While Grayland prepares for disaster, others are preparing for a civil war,
+            a war that will take place in the halls of power, the markets of business and
+            the altars of worship as much as it will take place between spaceships and
+            battlefields. The Emperox and her allies are smart and resourceful, but then
+            so are her enemies. Nothing about this power struggle will be simple or easy...
+            and all of humanity will be caught in its widening gyre.</p>
+            ]]>
+        </field>
+        <field name="image" type="base64" file="library/static/img/collapsing_2.jpg"/>
+    </record>
+
+    <record model="library.book" id="book_demo_jp_1">
+        <field name="title">Jurassic Park</field>
+        <field name="author">Michael Crichton</field>
+        <field name="isbn">9780784838068</field>
+        <field name="summary">
+            <![CDATA[
+            <p>An astonishing technique for recovering and cloning dinosaur DNA has
+            been discovered. Now humankind’s most thrilling fantasies have come true.
+            Creatures extinct for eons roam Jurassic Park with their awesome presence
+            and profound mystery, and all the world can visit them—for a price.
+            Until something goes wrong...</p>
+            ]]>
+        </field>
+        <field name="image" type="base64" file="library/static/img/jurassic.jpg"/>
+    </record>
+
+    <record model="library.book" id="book_demo_jp_2">
+        <field name="title">The Lost World</field>
+        <field name="author">Michael Crichton</field>
+        <field name="isbn">9780752224411</field>
+        <field name="summary">
+            <![CDATA[
+            <p>It is now six years since the secret disaster at Jurassic Park, six years
+            since the extraordinary dream of science and imagination came to a crashing
+            end – the dinosaurs destroyed, the park dismantled, the island indefinitely
+            closed to the public.</p>
+
+            <p>There are rumors that something has survived....</p>
+            ]]>
+        </field>
+        <field name="image" type="base64" file="library/static/img/jurassic_2.jpg"/>
+    </record>
+
+    <record model="library.book" id="book_demo_4">
+        <field name="title">The Martian</field>
+        <field name="author">Andy Weir</field>
+        <field name="isbn">9780804139021</field>
+        <field name="summary">
+            <![CDATA[
+            <p>Six days ago, astronaut Mark Watney became one of the first people
+            to walk on Mars.</p>
+            <p>Now, he’s sure he’ll be the first person to die there.</p>
+            <p>After a dust storm nearly kills him and forces his crew to evacuate
+            while thinking him dead, Mark finds himself stranded and completely
+            alone with no way to even signal Earth that he’s alive—and even if
+            he could get word out, his supplies would be gone long before a rescue
+            could arrive.</p>
+            <p>Chances are, though, he won’t have time to starve to death. The
+            damaged machinery, unforgiving environment, or plain-old “human error”
+            are much more likely to kill him first.</p>
+            <p>But Mark isn’t ready to give up yet. Drawing on his ingenuity,
+            his engineering skills — and a relentless, dogged refusal to quit
+            — he steadfastly confronts one seemingly insurmountable obstacle
+            after the next. Will his resourcefulness be enough to overcome the
+            impossible odds against him?</p>
+            ]]>
+        </field>
+        <field name="image" type="base64" file="library/static/img/martian.jpg"/>
+    </record>
+
+</odoo>
