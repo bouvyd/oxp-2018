@@ -47,7 +47,7 @@
                     </div>
                     <group>
                         <group >
-                            <field name="author" />
+                            <field name="author_id" />
                             <field name="isbn" />
                             <field name="borrower_id" attrs="{'invisible': [('available', '=', True)]}"/>
                             <field name="date_borrow" attrs="{'invisible': [('available', '=', True)]}" />
@@ -75,7 +75,7 @@
             <tree string="Books" decoration-muted="not available">
                 <field name="available" invisible="1"/>
                 <field name="title" />
-                <field name="author" />
+                <field name="author_id" />
                 <field name="isbn" />
             </tree>
         </field>
@@ -87,7 +87,7 @@
         <field name="arch" type="xml">
             <search string="All books">
                 <field name="title" string="Title"/>
-                <field name="author"/>
+                <field name="author_id"/>
                 <field name="isbn"/>
                 <separator/>
                 <field name="available" string="Available" domain="[('available','=', True)]"/>
@@ -107,7 +107,7 @@
             <kanban>
                 <field name="id" />
                 <field name="title" />
-                <field name="author" />
+                <field name="author_id" />
                 <field name="isbn" />
                 <field name="image" />
                 <field name="available" />
@@ -123,7 +123,7 @@
                                 </strong>
                                 <ul>
                                     <li>
-                                        <field name="author"/>
+                                        <field name="author_id"/>
                                     </li>
                                     <li>
                                         <field name="isbn"/>

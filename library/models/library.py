@@ -13,7 +13,7 @@ class LibraryBook(models.Model):
 
     title = fields.Char(required=True)
     summary = fields.Html()
-    author = fields.Char(required=True)
+    author_id = fields.Many2one('library.author', string="Author", required=True)
     isbn = fields.Char(string='ISBN')
     borrower_id = fields.Many2one('res.partner', string='Borrowed by', groups='base.group_user')
     available = fields.Boolean(compute='_compute_available', compute_sudo=True)
@@ -52,3 +52,10 @@ class LibraryBookWizard(models.TransientModel):
     def action_confirm(self):
         date_return = fields.Date.to_string(datetime.date.today() + datetime.timedelta(days=self.duration))
         self.book_id.write({'borrower_id': self.borrower_id.id, 'date_borrow': fields.Date.today(), 'date_return': date_return})
+
+class LibraryAuthor(models.Model):
+    _name = 'library.author'
+    _description = 'Author'
+
+    name = fields.Char(required=True)
+    book_ids = fields.One2many('library.book', 'author_id', string='Books')
